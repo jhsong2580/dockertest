@@ -19,3 +19,13 @@ confirm the port to access server
 - kubectl.exe describe svc/mytest1 | grep NodePort
 - kubectl.exe get svc | grep mytest1
 
+
+
+
+![RESULT](./../image/ku_result.PNG)
+echo ' '
+
+![RESULT](./../image/ku_result_web.PNG)
+
+
+

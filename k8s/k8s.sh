@@ -29,4 +29,8 @@ echo ' '
 echo 'access Port'
 kubectl.exe describe svc/$1 | grep NodePort
 
+echo ' '
+echo ' '
+echo 'kubectl get svc/$1'
+kubectl.exe get svc/$1
 
