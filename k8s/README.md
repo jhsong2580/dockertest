@@ -26,7 +26,7 @@ confirm the port to access server
 ![RESULT](./../image/ku_result.PNG)
 echo ' '
 
-![RESULT](./../image/ku_result_wePNG)
+![RESULT](./../image/ku_result_web.PNG)
 
 
 
