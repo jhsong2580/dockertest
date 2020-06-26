@@ -1,9 +1,23 @@
 # dockertest
+Git Clone 
+-  git clone https://github.com/jhsong2580/dockertest.git
+
+Git Add 
+- git add * 
+
+Git Commit 
+- git commit 
+
+Git push 
+- git push 
+
+
+
 BUILD IMAGE
 - docker build -t thdwmdgns/mytest .
 
 RUN IMAGE & Port Forwarding
--winpty docker run -it --name mytest_u1 -p 8888:80 thdwmdgns/mytest
+- winpty docker run -it --name mytest_u1 -p 8888:80 thdwmdgns/mytest
 
 
 
