@@ -8,7 +8,7 @@ make Container & map service port 80
 - winpty kubectl.exe run mytest1 --image=thdwmdgns/mytest --port=80
 
 Expose 
-- kubectl.exe expose deploy $1 --type="NodePort" --port 80
+- kubectl.exe expose deploy mytest1 --type="NodePort" --port 80
 
 scale with 20 pods 
 - kubectl.exe scale deploy mytest1 --replicas=20
