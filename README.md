@@ -15,9 +15,19 @@ Git push
 
 BUILD IMAGE
 - docker build -t thdwmdgns/mytest .
+- Result
+- REPOSITORY                           TAG                                              IMAGE ID            CREATED             SIZE
+- thdwmdgns/mytest                     latest                                           bfd69d21e8d5        24 hours ago        231MB
+
+
 
 RUN IMAGE & Port Forwarding
 - winpty docker run -it --name mytest_u1 -p 8888:80 thdwmdgns/mytest
+- Result
+- CONTAINER ID        IMAGE                     COMMAND                  CREATED             STATUS                        PORTS               NAMES
+- 88534f24945f        thdwmdgns/mytest          "nginx"                  7 minutes ago       Exited (0) 4 minutes ago                          mytest_u1
+
+
 
 
 
