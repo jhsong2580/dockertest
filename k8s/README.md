@@ -1,7 +1,8 @@
 # dockertest/k8s
 
-docker pull thdwmdgns/mytest
-- Get image by Docker HUB 
+Get image by Docker HUB 
+- docker pull thdwmdgns/mytest
+
 
 make Container & map service port 80 
 - winpty kubectl.exe run mytest1 --image=thdwmdgns/mytest --port=80
@@ -25,7 +26,7 @@ confirm the port to access server
 ![RESULT](./../image/ku_result.PNG)
 echo ' '
 
-![RESULT](./../image/ku_result_web.PNG)
+![RESULT](./../image/ku_result_wePNG)
 
 
 
