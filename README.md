@@ -1,1 +1,18 @@
 # dockertest
+BUILD IMAGE
+- docker build -t thdwmdgns/mytest .
+
+RUN IMAGE & Port Forwarding
+-winpty docker run -it --name mytest_u1 -p 8888:80 thdwmdgns/mytest
+
+
+
+ATTACH IMAGE
+- winpty docker exec -it mytest_u1 bash
+
+INSTALL nginx in ubuntu 
+1. apt update -y 
+2. apt install nginx -y
+
+localhost:8888 
+
