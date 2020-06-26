@@ -20,13 +20,7 @@ BUILD IMAGE
 
 RUN IMAGE & Port Forwarding
 - winpty docker run -it --name mytest_u1 -p 8888:80 thdwmdgns/mytest
-- Result
-- CONTAINER ID        IMAGE                     COMMAND                  CREATED             STATUS                        PORTS               NAMES
-- 88534f24945f        thdwmdgns/mytest          "nginx"                  7 minutes ago       Exited (0) 4 minutes ago                          mytest_u1
-
-
-
-
+![RESULT](./image/docker_run_ps_a.PNG)
 
 
 ATTACH IMAGE
@@ -36,5 +30,10 @@ INSTALL nginx in ubuntu(already installed by Dockerfile)
 1. apt update -y 
 2. apt install nginx -y
 
+![RESULT](./image/docker_update.PNG)
+
+
 localhost:8888 
+![RESULT](./image/localhost_8888.PNG)
+
 
