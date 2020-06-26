@@ -10,7 +10,7 @@ RUN IMAGE & Port Forwarding
 ATTACH IMAGE
 - winpty docker exec -it mytest_u1 bash
 
-INSTALL nginx in ubuntu 
+INSTALL nginx in ubuntu(already installed by Dockerfile) 
 1. apt update -y 
 2. apt install nginx -y
 
